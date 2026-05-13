@@ -8,8 +8,6 @@ A macOS menu-bar widget that nags you about uncommitted git changes.
 
 ## Install
 
-Already done in this directory:
-
 ```
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
@@ -29,7 +27,7 @@ Look for `⎇` in the top-right menu bar.
 ./install-autostart.sh
 ```
 
-Removes:
+Remove:
 
 ```
 ./uninstall-autostart.sh
@@ -67,4 +65,3 @@ After editing, quit commidget from the menu and re-launch.
 - `install-autostart.sh` / `uninstall-autostart.sh` — LaunchAgent setup
 - `~/.commidget/config.json` — settings
 - `~/.commidget/state.json` — per-repo notification cooldowns
-# commidget
